@@ -1,0 +1,15 @@
+[package]
+name = "mncalc"
+version = "0.1.0"
+edition = "2021"
+authors = ["Cat"]
+description = "Program to calculate square in Minecraft"
+license = "MIT"
+documentation = "https://github.com/Vova-max-png/DCSR"
+repository = "https://github.com/Vova-max-png/DCSR"
+categories = ["Command line utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.3.0", features = ["derive"] }
